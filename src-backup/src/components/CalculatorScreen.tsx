@@ -166,7 +166,7 @@ const CalculatorScreen: React.FC = () => {
                 />
                 
                 <BoosterCheckbox
-                  label="AI-анализатор"
+                  label="Аналитика недели"
                   description="+10% к заявкам и рентабельности"
                   checked={boosters.aiAnalyzer}
                   onChange={(checked) => updateBooster('aiAnalyzer', checked)}
